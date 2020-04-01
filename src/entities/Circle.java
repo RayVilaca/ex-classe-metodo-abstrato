@@ -23,6 +23,7 @@ public class Circle extends Shapes {
 		this.radius = radius;
 	}
 	
+	@Override
 	public double area() {
 		return pi * Math.pow(radius, 2);
 	}
